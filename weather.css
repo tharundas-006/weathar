@@ -1,0 +1,182 @@
+
+#icon
+{
+    margin-left: 43%;
+    width: 10%;
+    padding-bottom: 0;
+    padding-top: 28px;
+    border-width: 10px;
+    border: 2px black;
+    transition: all 0.3s ease;
+}
+#bdy.dark
+{
+    background-color:#0B1D2A;
+
+}
+#icon:hover
+{
+   box-shadow: 5px , 5px , 7px rgb(234, 182, 133);
+   scale: 1.2;
+}
+#bdy
+{
+    background-color: #FBF4EC;
+    transition: all 0.3s ease-in;
+}
+#stats
+{ 
+    z-index: 3;
+    display: none;
+    position: relative;
+    background-color: blanchedalmond;
+    width:30%;
+    height: 90%;
+    left: 33%;
+    top: 5px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    transition: all 0.3s ease;
+}
+#stats:hover
+{
+    background-image: var(icon);
+    box-shadow: 5px 5px 10px rgb(102, 101, 101);
+    box-shadow: 5px 5px 10px rgb(234, 182, 133);
+    scale: 1.02;
+    background-color: rgb(255, 211, 145);
+}
+#stats:hover button 
+{
+
+    background-color: blanchedalmond;
+    transition: ease 0.3s;
+}
+#stats button 
+{
+    color: #B87333;
+    margin-top: 5px;
+    background-color: rgb(255, 211, 145);
+    column-gap: 5px;
+    border-radius: 5px;
+    width: 140px;
+    height: 48px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    word-break: break-word;
+    justify-content: center;
+    white-space: normal;
+    border: none;
+    transition: all 0.3s ease;
+}
+#stats button:hover{
+    border-radius: 7px;
+    box-shadow:5px 5px 18px rgba(246, 175, 109, 0.826);
+    scale:1.07;
+}
+.word {
+    font-size: 90px;
+    color: #B87333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.word span {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    left:135px;
+    transition: all 0.2s ease-in-out;
+}
+.word span:hover{
+    scale: 1.2;
+}
+
+.word span small {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    writing-mode: sideways-rl;
+    text-orientation: upright;
+    transform: translateX(-50%) translateY(-10px);
+    font-size: 14px;
+    background-color: blanchedalmond;
+    color:#B87333;
+    padding: 3px 6px;
+    border-radius: 4px;
+
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.word span:hover small {
+    opacity: 1;
+    transform: translateX(-50%) translateY(5px);
+}
+#place
+{
+
+    margin-top: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: blanchedalmond;
+    font: 400;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+    width: 30%;
+    height: 25px;
+    transition: all 0.2s ease-in;
+}    
+#place:hover
+{
+    outline: none;
+    scale: 1.05;
+    background-color: rgb(255, 211, 145);
+}
+#place:focus
+{
+    outline:1px #B87333;
+}
+#place::placeholder
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #B87333;
+    padding-left: 5px;
+}
+.thar 
+{
+    color: rgb(230, 78, 78);
+}
+#btn
+{
+    color:#B87333;
+    background-color:blanchedalmond;
+    border: none;
+    margin-left: 10px;
+    border-radius: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 25px;
+    width: 40px;
+    transition: all 0.2s ease-in;
+}
+#btn:hover
+{
+    
+    scale: 1.08;
+    background-color: rgb(255, 211, 145);
+}
+#mode
+{
+    top: 5px;
+    position: fixed;
+    margin-left: 92%;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+
+}

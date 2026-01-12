@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="weather.css">
+    </head>
+    <body id="bdy"class="dark">
+        <button id="mode" onclick="clk()">☀️</button>
+        <h1 class="word">
+            <span>W<small>Wind</small></span>
+            <span>E<small>Evaporation</small></span>
+            <span>A<small>Air</small></span>
+            <span class="thar">T<small>Temperature</small></span>
+            <span class="thar">H<small>Humidity</small></span>
+            <span class="thar">A<small>Atmosphere</small></span>
+            <span class="thar">R<small>Rain</small></span>
+        </h1>
+
+        <center>
+        <input type="text" id="place" placeholder="Enter a place">
+        <button onclick="getval()" id="btn">GET</button>
+        </center>
+        
+             
+            <img id="icon" src="">
+
+            <div id="stats">
+            <center>
+            <table >
+            <tr>
+                <td><button id="temc"></button></td> <td></td> <td><button id="temf"></button></td>
+            </tr>
+            <tr>
+               <td><button id="whr"></button></td> <td></td> <td><button id="hum"></button></td>
+            </tr>
+            <tr>
+                <td><button id="uv"></button></td> <td></td> <td><button id="ws"></button></td>
+            </tr>
+             <tr>
+                <td><button id="vis"></button></td> <td></td> <td><button id="cld"></button></td>
+             </tr>
+             <tr>
+                <td><button id="reg"></button></td> <td></td> <td><button id="coun"></button></td>
+             </tr>
+        </table>
+        </center>
+        </div>
+        <script src="weather.js" ></script>
+    </body>
+</html>
